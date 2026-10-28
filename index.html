@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nano Banana 2.1 来了！21 个真实案例 + 公开提示词，这份 Awesome 合集请收好</title>
+<meta name="description" content=" 图注：合集精选案例拼贴（人像 / 棋盘对比 / 小红书海报 / 深夜食堂 2.0 vs 2.1）。在线画廊：https://xianyu110.github.io/awesome-nano-banana-2.1/ 最近 Google 的图像模型 Nano Banana 2.1（API：gemini-nano-bana">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f7f5f0;--card:#fff;--text:#1a1a1a;--muted:#5c5c5c;--accent:#1a73e8;--border:#e6e2d8;--code-bg:#f0eee8}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:"Noto Sans SC","PingFang SC","Microsoft YaHei",sans-serif;font-size:17px;line-height:1.85;-webkit-font-smoothing:antialiased}
+.wrap{max-width:760px;margin:0 auto;padding:2.5rem 1.25rem 4rem}
+article{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:2rem 1.75rem 2.5rem;box-shadow:0 8px 30px rgba(0,0,0,.04)}
+h1{font-family:"Noto Serif SC",serif;font-size:clamp(1.55rem,4vw,2rem);line-height:1.4;margin:0 0 1.25rem;font-weight:700}
+h2{font-family:"Noto Serif SC",serif;font-size:1.35rem;margin:2.25rem 0 .9rem;padding-top:.5rem;border-top:1px solid var(--border);font-weight:700}
+h2:first-of-type{border-top:none;padding-top:0}h3{font-size:1.1rem;margin:1.5rem 0 .6rem}
+p{margin:.9rem 0}a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+ul,ol{padding-left:1.35rem;margin:.8rem 0}li{margin:.35rem 0}strong{font-weight:700}
+img{display:block;max-width:100%;height:auto;margin:1.1rem auto .35rem;border-radius:10px;border:1px solid var(--border);background:#fafafa}
+pre{background:var(--code-bg);border:1px solid var(--border);border-radius:10px;padding:1rem 1.1rem;overflow-x:auto;font-size:.88rem;line-height:1.55}
+code{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.9em;background:var(--code-bg);padding:.1em .35em;border-radius:4px}
+pre code{background:none;padding:0}
+blockquote{margin:1rem 0;padding:.2rem 0 .2rem 1rem;border-left:3px solid var(--accent);color:var(--muted)}
+table{width:100%;border-collapse:collapse;margin:1rem 0;font-size:.95rem}
+th,td{border:1px solid var(--border);padding:.55rem .7rem;text-align:left;vertical-align:top}th{background:#f3f1eb}
+.meta{color:var(--muted);font-size:.92rem;margin-bottom:1.5rem}
+.pages-banner{margin:0 0 1.25rem;padding:.75rem 1rem;background:#eef5ff;border:1px solid #d0e2ff;border-radius:10px;font-size:.95rem}
+footer{margin-top:2rem;padding-top:1rem;border-top:1px solid var(--border);color:var(--muted);font-size:.88rem}
+</style></head><body><div class="wrap"><article>
+<div class="pages-banner">在线阅读（GitHub Pages）：<a href="https://maynor996.github.io/nano-banana-2-1/">https://maynor996.github.io/nano-banana-2-1/</a></div>
+<h1>Nano Banana 2.1 来了！21 个真实案例 + 公开提示词，这份 Awesome 合集请收好</h1>
+<div class="meta">原文：<a href="https://blog.csdn.net/xianyu120/article/details/167221543">https://blog.csdn.net/xianyu120/article/details/167221543</a></div>
+<p><img alt="案例拼贴预览" src="imgs/01.jpg" /></p>
+<p><em>图注：合集精选案例拼贴（人像 / 棋盘对比 / 小红书海报 / 深夜食堂 2.0 vs 2.1）。在线画廊：https://xianyu110.github.io/awesome-nano-banana-2.1/</em></p>
+<hr />
+<p>最近 Google 的图像模型 <strong>Nano Banana 2.1</strong>（API：<code>gemini-nano-banana-2.1</code>，Google Flow 里有时显示代号 <strong>beluga</strong>）在社区里热度很高：速度快、提示跟随更稳，中文与排版场景也更敢试了。</p>
+<p>但问题也很现实——X 上刷到的 demo 往往「好看却不好抄」：封面图有了，提示词却藏着；或者模型名写得含糊，和 Pro / 旧版混在一起。</p>
+<p>于是有了这份开源合集：</p>
+<p><strong><a href="https://github.com/xianyu110/awesome-nano-banana-2.1">awesome-nano-banana-2.1</a></strong><br />
+由 <a href="https://github.com/xianyu110">@xianyu110</a> 整理，<strong>只收录「封面图 + 作者公开提示词」齐全</strong>的案例，去重后目前 <strong>21 条</strong>，并配有可筛选、可搜索、可一键复制提示词的在线画廊。</p>
+<p>如果你正在测 Nano Banana 2.1，或想快速找到可复现的中文海报 / 人像 / 对比评测灵感，这篇可以直接当导航用。</p>
+<hr />
+<h2>一、Nano Banana 2.1 是什么？为什么要单独做 Awesome？</h2>
+<p>社区语境里，<strong>Nano Banana 2.1</strong> 一般指 Google Gemini 的一档图像模型：</p>
+<table>
+<thead>
+<tr>
+<th>项目</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>产品名</td>
+<td>Nano Banana 2.1</td>
+</tr>
+<tr>
+<td>API ID</td>
+<td><code>gemini-nano-banana-2.1</code>（Google AI Studio / Gemini API）</td>
+</tr>
+<tr>
+<td>其他入口</td>
+<td>Google Flow、Gemini App 等；Flow 内代号有时为 <strong>beluga</strong></td>
+</tr>
+<tr>
+<td>社区印象</td>
+<td>偏 Flash 路线、生成快；提示跟随与文字表现有改进；常被拿来和 GPT Image 2.5 / 同系列 Lite·2.0 做同 prompt 对比</td>
+</tr>
+</tbody>
+</table>
+<p>单独做 Awesome 的原因很简单：</p>
+<ol>
+<li><strong>可复现</strong>：没有公开 prompt 的「炫图」很难学习；  </li>
+<li><strong>可核对</strong>：帖内需明确写明 Nano Banana 2.1 / <code>gemini-nano-banana-2.1</code> / Flow beluga，避免和 <a href="https://github.com/xianyu110/awesome-nanobananapro-prompts">awesome-nanobananapro-prompts</a>（Pro）混淆；  </li>
+<li><strong>可浏览</strong>：GitHub README 适合收藏，Pages 画廊适合「边看图边复制」。</li>
+</ol>
+<p>数据快照时间：<strong>2026-10-07 14:29（UTC+8）</strong>。互动数为整理时快照；作品与提示词版权归原作者。</p>
+<hr />
+<h2>二、怎么用？两条入口就够</h2>
+<h3>1）GitHub 仓库（适合 Star / Fork / 提 PR）</h3>
+<p>🔗 <strong>仓库</strong>：https://github.com/xianyu110/awesome-nano-banana-2.1  </p>
+<p>README 按 5 个分类列出全部案例，并附预览图、原帖链接与提示词入口。</p>
+<h3>2）在线画廊（适合日常查阅与复制提示词）</h3>
+<p>🌐 <strong>画廊</strong>：https://xianyu110.github.io/awesome-nano-banana-2.1/  </p>
+<p>支持：</p>
+<ul>
+<li>按分类筛选（对比评测 / 产品商业 / 人像角色 / 文字海报 / 其他）  </li>
+<li>关键词搜索  </li>
+<li><strong>一键复制公开提示词</strong>  </li>
+<li>跳转原作者 X 帖子核对上下文  </li>
+</ul>
+<p>建议工作流：画廊里挑喜欢的图 → 复制 prompt → 在 Gemini / Flow / API 里复现或改写 → 把你的「图 + 公开提示词」贡献回去。</p>
+<hr />
+<h2>三、先看 5 个有代表性的案例</h2>
+<p>下面从 21 条里挑了跨品类的 5 个样例（人像、对比、中文广告字、小红书海报、历史书法场景）。<strong>提示词均为作者公开原文摘录，版权归原作者；请尊重署名并附原帖链接。</strong></p>
+<hr />
+<h3>案例 1｜明暗对照法电影感特写人像</h3>
+<ul>
+<li><strong>分类</strong>：人像 / 角色  </li>
+<li><strong>作者</strong>：<a href="https://x.com/rovvmut_">@rovvmut_</a>  </li>
+<li><strong>原帖</strong>：https://x.com/rovvmut_/status/2107691827323392159  </li>
+<li><strong>画廊</strong>：https://xianyu110.github.io/awesome-nano-banana-2.1/#2107691827323392159  </li>
+<li><strong>简介</strong>：左侧强光、右侧深影、黑背景，35mm 胶片颗粒与浅景深，强调角色一致性——很适合当作「电影感人像」模板起步。</li>
+</ul>
+<p><img alt="明暗对照法电影感特写人像" src="imgs/02.jpg" /></p>
+<p><strong>提示词摘录：</strong></p>
+<pre><code class="language-text">A hyper-realistic, 8K resolution cinematic close-up portrait of the person in the uploaded image. The image features dramatic chiaroscuro lighting, heavily illuminating the left side of his face while casting deep, moody shadows on the right against a solid black background. He has an intense, direct gaze, dark brown eyes with square catchlights, and textured, wet-styled hair. ...
+</code></pre>
+<p>（完整提示词请到画廊或原帖一键复制。）</p>
+<hr />
+<h3>案例 2｜棋盘暮影成城市天际线：2 Lite vs 2.1</h3>
+<ul>
+<li><strong>分类</strong>：对比评测  </li>
+<li><strong>作者</strong>：<a href="https://x.com/EmilioSchwaiger">@EmilioSchwaiger</a>  </li>
+<li><strong>原帖</strong>：https://x.com/EmilioSchwaiger/status/2107699973869494754  </li>
+<li><strong>画廊</strong>：https://xianyu110.github.io/awesome-nano-banana-2.1/#2107699973869494754  </li>
+<li><strong>简介</strong>：同 prompt 左右对比 Nano Banana 2 Lite 与 2.1——棋子在暮光下的长影，拼出城市天际线轮廓。想感受版本差异，这类「同题对比」最直观。</li>
+</ul>
+<p><img alt="棋盘暮影成城市天际线" src="imgs/03.jpg" /></p>
+<p><strong>提示词（全文较短，可直接试）：</strong></p>
+<pre><code class="language-text">A top-down photo of a chessboard mid-game, the long shadows of the pieces cast by low evening sun form the silhouette of a city skyline across the board
+</code></pre>
+<hr />
+<h3>案例 3｜中文广告字：2.0 vs 2.1（深夜食堂等）</h3>
+<ul>
+<li><strong>分类</strong>：文字设计 / 海报  </li>
+<li><strong>作者</strong>：<a href="https://x.com/sui1723">@sui1723</a>  </li>
+<li><strong>原帖</strong>：https://x.com/sui1723/status/2107677832621314458  </li>
+<li><strong>画廊</strong>：https://xianyu110.github.io/awesome-nano-banana-2.1/#2107677832621314458  </li>
+<li><strong>简介</strong>：「深夜食堂」「周末限定 买一送一」这类短促广告文案，是测 CJK 文字与构图光影的好探针。作者观察：文字差异未必夸张，变的是整体构图与光影气质。</li>
+</ul>
+<p><img alt="中文广告字深夜食堂" src="imgs/04.jpg" /></p>
+<p><strong>提示词：</strong></p>
+<pre><code class="language-text">深夜食堂
+周末限定 买一送一
+</code></pre>
+<hr />
+<h3>案例 4｜小红书海报：联网搜索 + 3:4</h3>
+<ul>
+<li><strong>分类</strong>：文字设计 / 海报  </li>
+<li><strong>作者</strong>：<a href="https://x.com/nicekate8888">@nicekate8888</a>  </li>
+<li><strong>原帖</strong>：https://x.com/nicekate8888/status/2107507607183478923  </li>
+<li><strong>画廊</strong>：https://xianyu110.github.io/awesome-nano-banana-2.1/#2107507607183478923  </li>
+<li><strong>简介</strong>：一句中文需求直接生成 <strong>3:4 小红书海报</strong>，并带联网搜索信息——对做运营、自媒体排版的同学非常友好。</li>
+</ul>
+<p><img alt="小红书海报案例" src="imgs/05.jpg" /></p>
+<p><strong>提示词：</strong></p>
+<pre><code class="language-text">Nano Banana 2.1 已推出，请搜索信息，并生成适合小红书的海报，3:4
+</code></pre>
+<hr />
+<h3>案例 5｜王羲之正在写传世名作</h3>
+<ul>
+<li><strong>分类</strong>：文字设计 / 海报  </li>
+<li><strong>作者</strong>：<a href="https://x.com/wshuyi">@wshuyi</a>  </li>
+<li><strong>原帖</strong>：https://x.com/wshuyi/status/2107678239158309266  </li>
+<li><strong>画廊</strong>：https://xianyu110.github.io/awesome-nano-banana-2.1/#2107678239158309266  </li>
+<li><strong>简介</strong>：极短的中文历史场景提示，同时考验人物、场景与书法文字。短 prompt 也能出系列结果，适合观察模型的「脑补」能力。</li>
+</ul>
+<p><img alt="王羲之正在写传世名作" src="imgs/06.jpg" /></p>
+<p><strong>提示词：</strong></p>
+<pre><code class="language-text">王羲之正在写他的传世名作
+</code></pre>
+<hr />
+<blockquote>
+<p>其余 16 个案例（UGC 产品实拍、iPhone 闪光抓拍、双参考人物融合、游戏 UI 对比、叶片缝隙嵌字等）请直接打开画廊浏览：<br />
+https://xianyu110.github.io/awesome-nano-banana-2.1/</p>
+</blockquote>
+<hr />
+<h2>四、收录标准（为什么这本合集「能抄」）</h2>
+<p>合集的 curation 规则很硬，也正是它的价值所在：</p>
+<ol>
+<li><strong>只收创作者本人发布的原帖</strong>；明显搬运不收。  </li>
+<li>帖子里<strong>明确写了 Nano Banana 2.1</strong>（或 <code>gemini-nano-banana-2.1</code> / Flow <code>beluga</code>）。  </li>
+<li><strong>必须同时有封面预览图 + 非空公开提示词</strong>（正文或作者回复中可查）；<strong>缺一不收</strong>。  </li>
+<li>封面优先使用 <code>pbs.twimg.com</code> 等 X 公开媒体 URL。  </li>
+<li>模型归属以各作者自述为准；作品与提示词版权归原作者。</li>
+</ol>
+<p>一句话：<strong>没有公开 prompt 的炫图，进不了这份列表。</strong></p>
+<p>当前分类结构：</p>
+<table>
+<thead>
+<tr>
+<th>分类</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>⚖️ 对比评测</td>
+<td>同 prompt 跨版本 / 跨模型</td>
+</tr>
+<tr>
+<td>🛍️ 产品 / 商业</td>
+<td>UGC、电商实拍风等</td>
+</tr>
+<tr>
+<td>👤 人像 / 角色</td>
+<td>电影感、胶片、iPhone 直出等</td>
+</tr>
+<tr>
+<td>✍️ 文字设计 / 海报</td>
+<td>中文广告字、小红书、书法场景等</td>
+</tr>
+<tr>
+<td>✨ 其他</td>
+<td>首测、趣味、发布向</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>五、欢迎 Star，也欢迎 PR</h2>
+<p>如果你：</p>
+<ul>
+<li>用 Nano Banana 2.1 做出了满意的作品，并且 <strong>愿意公开提示词</strong>；  </li>
+<li>发现了优质原帖（图 + prompt 齐全、模型标注清楚）；  </li>
+<li>想补充中文案例、修正链接或改进画廊体验；  </li>
+</ul>
+<p>欢迎给仓库点个 <strong>Star</strong>，并直接提 <strong>Issue / Pull Request</strong>：</p>
+<p>⭐ https://github.com/xianyu110/awesome-nano-banana-2.1  </p>
+<p>贡献前请确认：</p>
+<ul>
+<li>帖内写明 Nano Banana 2.1 / <code>gemini-nano-banana-2.1</code> / beluga；  </li>
+<li>有可引用的封面图 URL；  </li>
+<li>有可复制的公开提示词原文；  </li>
+<li>注明原作者与原帖链接。</li>
+</ul>
+<hr />
+<h2>六、快速链接汇总</h2>
+<table>
+<thead>
+<tr>
+<th>资源</th>
+<th>链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GitHub 仓库</td>
+<td>https://github.com/xianyu110/awesome-nano-banana-2.1</td>
+</tr>
+<tr>
+<td>在线画廊</td>
+<td>https://xianyu110.github.io/awesome-nano-banana-2.1/</td>
+</tr>
+<tr>
+<td>维护者</td>
+<td><a href="https://github.com/xianyu110">@xianyu110</a></td>
+</tr>
+<tr>
+<td>英文 README</td>
+<td>https://github.com/xianyu110/awesome-nano-banana-2.1/blob/main/README.en.md</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><strong>写在最后：</strong><br />
+模型迭代很快，真正能沉淀下来的，往往是「可复现的案例库」。Awesome Nano Banana 2.1 把社区里已经公开的图与提示词收拢成可检索的画廊——你负责创造，仓库负责帮你被更多人看见。</p>
+<p>去画廊逛一圈，复制一条 prompt，今晚就开测吧 🍌</p>
+<footer>镜像自 CSDN @xianyu120 · 内容以原文为准</footer>
+</article></div></body></html>
